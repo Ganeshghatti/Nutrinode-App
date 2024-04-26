@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 7.6.2"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env":{
+        "API_KEY":"sk-proj-3LZpIxNliCRIR4taCvRZT3BlbkFJtnLGEcOb8OnnV1xElVdr"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios":{
+        "appleId":"shahriarhasan003@gmail.com",
+        "ascAppId":"6499068631",
+        "appleTeamId":"6XN7CPMNBM"
+      }
+    }
+  }
+}
